@@ -30,8 +30,8 @@ dependencies {
     compile localGroovy()
     compile "net.serenity-bdd:serenity-core:$serenity_version"
     compile "net.serenity-bdd:serenity-junit:$serenity_version"
-    compile("net.serenity-bdd:serenity-screenplay:1.1.31")
-    compile("net.serenity-bdd:browse-the-web:1.1.31")
+    compile("net.serenity-bdd:serenity-screenplay:$serenity_version")
+    compile("net.serenity-bdd:browse-the-web:$serenity_version")
     compile("net.serenity-bdd:serenity-jbehave:$serenity_jbehave_version")
 
 
