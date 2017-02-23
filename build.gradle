@@ -33,7 +33,7 @@ dependencies {
     compile "net.serenity-bdd:serenity-core:$serenity_version"
     compile "net.serenity-bdd:serenity-junit:$serenity_version"
     compile("net.serenity-bdd:serenity-screenplay:$serenity_version")
-    compile("net.serenity-bdd:browse-the-web:1.1.34")
+    compile("net.serenity-bdd:serenity-screenplay-webdriver:$serenity_version")
     compile("net.serenity-bdd:serenity-jbehave:$serenity_jbehave_version")
 
 
