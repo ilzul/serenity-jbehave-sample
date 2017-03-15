@@ -4,8 +4,8 @@ repositories {
     jcenter()
 }
 
-ext{
-    serenity_version = "1.2.3-rc.5"
+ext {
+    serenity_version = "1.2.3-rc.7"
     serenity_jbehave_version = "1.21.0"
 }
 
@@ -16,7 +16,7 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath("net.serenity-bdd:serenity-gradle-plugin:1.2.3-rc.5")
+        classpath("net.serenity-bdd:serenity-gradle-plugin:1.2.3-rc.7")
     }
 }
 
@@ -49,22 +49,22 @@ dependencies {
 
 test {
     testLogging {
-       // showStandardStreams = true
+        // showStandardStreams = true
     }
     /* Pass all system properties: */
-    systemProperties System.getProperties()
+    systemProperties System.getProperties() as Map<String, ?>
 
     maxParallelForks = Runtime.runtime.availableProcessors()
 }
 
 task copyDeps(type: Copy) {
     from configurations.runtime
-    into project.projectDir.path+"/lib"
+    into project.projectDir.path + "/lib"
 }
 
 
 gradle.startParameter.continueOnFailure = true
 
-task wrapper(type: Wrapper){
+task wrapper(type: Wrapper) {
     gradleVersion = '3.4'
 }

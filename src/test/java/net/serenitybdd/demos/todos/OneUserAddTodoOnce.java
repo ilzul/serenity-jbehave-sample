@@ -1,5 +1,6 @@
 package net.serenitybdd.demos.todos;
 
-import net.serenitybdd.jbehave.SerenityStories;
+import net.serenitybdd.jbehave.SerenityStory;
 
-public class OneUserAddTodoOnce extends SerenityStories {}
+public class OneUserAddTodoOnce extends SerenityStory {
+}
