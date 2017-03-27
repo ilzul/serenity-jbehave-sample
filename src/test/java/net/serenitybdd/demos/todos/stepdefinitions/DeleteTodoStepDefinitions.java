@@ -1,4 +1,4 @@
-package net.serenitybdd.demos.todos.jbehave.stepdefinitions;
+package net.serenitybdd.demos.todos.stepdefinitions;
 
 import net.serenitybdd.demos.todos.steps.AddItems;
 import net.serenitybdd.demos.todos.steps.CompleteItem;

@@ -25,7 +25,7 @@ public class ATodoUser {
     @Step
     public void has_added_actions_called(String... actionNames) {
         newArrayList(actionNames).forEach(
-                action -> adds_an_action_called(action)
+                this::adds_an_action_called
         );
     }
 
