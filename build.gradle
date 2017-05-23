@@ -5,7 +5,7 @@ repositories {
 }
 
 ext {
-    serenity_version = "1.4.0"
+    serenity_version = "1.4.1-rc.2"
     serenity_jbehave_version = "1.25.0"
     serenity_jira_version = "1.1.3-rc.5"
 }
@@ -17,7 +17,7 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath("net.serenity-bdd:serenity-gradle-plugin:1.4.0")
+        classpath("net.serenity-bdd:serenity-gradle-plugin:1.4.1-rc.2")
     }
 }
 
