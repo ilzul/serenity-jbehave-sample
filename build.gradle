@@ -5,7 +5,7 @@ repositories {
 }
 
 ext {
-    serenity_version = "1.5.4"
+    serenity_version = "1.5.8"
     serenity_jbehave_version = "1.27.0-rc.1"
     serenity_jira_version = "1.2"
 }
